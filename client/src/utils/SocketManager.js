@@ -8,7 +8,7 @@ class SocketManager {
   }
 
   connect(roomId, userData) {
-    this.socket = io('http://localhost:3001');
+    this.socket = io('https://infinite-whiteboard-backend.onrender.com');
     this.roomId = roomId;
 
     this.socket.emit('join-room', roomId, userData);
