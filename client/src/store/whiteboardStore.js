@@ -1,8 +1,3 @@
-// ============================================
-// src/store/whiteboardStore.js
-// FIXED: Corrected Zustand import for v4+
-// ============================================
-
 import { create } from 'zustand';
 import { nanoid } from 'nanoid';
 
